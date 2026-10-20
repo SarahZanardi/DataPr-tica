@@ -4,7 +4,7 @@ Landing page estática para vender o ebook **Dados na Era da IA** no GitHub Page
 
 ## Personalização rápida
 
-1. Abra `script.js` e substitua `CHECKOUT_URL` pelo link do seu checkout.
+1. O botão de compra está configurado para abrir o WhatsApp e solicitar o comprovante do Pix.
 2. Em `index.html`, altere o preço exibido em `R$ 29,90` se necessário.
 3. Troque `seuemail@exemplo.com` pelo seu e-mail.
 4. Se quiser, ajuste os textos e a identidade visual em `index.html` e `style.css`.
@@ -13,4 +13,4 @@ Landing page estática para vender o ebook **Dados na Era da IA** no GitHub Page
 
 No GitHub, abra **Settings → Pages**, selecione **Deploy from a branch**, escolha a branch principal e a pasta `/ (root)`. Depois de salvar, o GitHub fornecerá a URL pública da página.
 
-O PDF do ebook foi mantido fora do repositório para não expor o produto pago publicamente. Conecte o checkout no `script.js` para entregar o arquivo após a compra.
+O PDF do ebook foi mantido fora do repositório para não expor o produto pago publicamente. Após confirmar o Pix, envie o arquivo manualmente pelo WhatsApp.
