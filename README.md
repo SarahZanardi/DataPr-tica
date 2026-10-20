@@ -13,4 +13,4 @@ Landing page estática para vender o ebook **Dados na Era da IA** no GitHub Page
 
 No GitHub, abra **Settings → Pages**, selecione **Deploy from a branch**, escolha a branch principal e a pasta `/ (root)`. Depois de salvar, o GitHub fornecerá a URL pública da página.
 
-O PDF do ebook fica em `assets/Ebook_Dados_na_Era_da_IA_Edicao_Completa.pdf`.
+O PDF do ebook foi mantido fora do repositório para não expor o produto pago publicamente. Conecte o checkout no `script.js` para entregar o arquivo após a compra.
