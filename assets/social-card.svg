@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Dados na Era da IA</title>
+  <desc id="desc">Ebook Practical Data sobre análise de dados e inteligência artificial.</desc>
+  <rect width="1200" height="630" fill="#061A32"/>
+  <circle cx="1030" cy="90" r="260" fill="#0878D1" opacity=".28"/>
+  <circle cx="1030" cy="90" r="160" fill="none" stroke="#00CFFF" stroke-width="2" opacity=".6"/>
+  <path d="M780 470c140-170 250-210 420-280M760 530c170-190 270-220 440-260" fill="none" stroke="#00CFFF" stroke-width="3" opacity=".5"/>
+  <text x="76" y="90" fill="#00CFFF" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">PRACTICAL DATA</text>
+  <text x="76" y="275" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="76" font-weight="700">Dados</text>
+  <text x="76" y="355" fill="#00CFFF" font-family="Arial, sans-serif" font-size="76" font-weight="700">na Era da IA</text>
+  <text x="80" y="430" fill="#B9C9D9" font-family="Arial, sans-serif" font-size="26">Um guia prático para decisões melhores.</text>
+  <rect x="80" y="500" width="210" height="54" rx="4" fill="#00CFFF"/>
+  <text x="112" y="536" fill="#061A32" font-family="Arial, sans-serif" font-size="20" font-weight="700">EDIÇÃO COMPLETA</text>
+</svg>
