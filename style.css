@@ -70,6 +70,7 @@ h1 em, h2 em { color: var(--violet); font-style: normal; }
 .chapter-card h3 { min-height: 62px; }
 .chapter-card p { min-height: 72px; }
 .chapter-tag { margin-top: auto; }
+.chapter-icon { margin: 39px 0 35px; }
 .chapter-card h3, .audience-card h3 { text-wrap: balance; }
 .audience-card { display: flex; flex-direction: column; }
 .audience-card h3 { min-height: 40px; }
