@@ -143,7 +143,7 @@ h1 em, h2 em { color: var(--violet); font-style: normal; }
 .benefit-card p { max-width: 275px; margin: 0; color: var(--muted); font-size: 11px; line-height: 1.6; }
 @media (max-width: 850px) { .benefits-section { padding-bottom: 100px; }.benefits-grid { grid-template-columns: 1fr; }.benefit-card { min-height: 180px; }.benefit-card h3 { margin-top: 38px; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; } }
-.policy-page { padding: 125px 0 130px; }
+.policy-page { width: min(880px, calc(100% - 64px)); margin-right: auto; margin-left: auto; padding: 125px 0 130px; }
 .policy-header .text-link { margin-right: 24px; }
 .policy-page h1 { max-width: 720px; margin-bottom: 28px; }
 .policy-lead { max-width: 620px; color: var(--muted); font-size: 16px; line-height: 1.75; }
@@ -158,4 +158,4 @@ h1 em, h2 em { color: var(--violet); font-style: normal; }
 .policy-content a { color: var(--lime); text-decoration: underline; text-underline-offset: 3px; }
 .policy-note { max-width: 700px; margin: 42px 0 0; color: var(--muted); font-size: 11px; line-height: 1.7; }
 .site-footer a { transition: color .2s ease; }
-@media (max-width: 650px) { .policy-page { padding: 92px 0 95px; }.policy-meta { margin-bottom: 48px; line-height: 1.6; }.policy-content article { grid-template-columns: 35px 1fr; column-gap: 15px; }.policy-content h2 { font-size: 20px; }.policy-content p { grid-column: 2; font-size: 12px; }.policy-note { margin-top: 32px; } }
+@media (max-width: 650px) { .policy-page { width: calc(100% - 32px); padding: 92px 0 95px; }.policy-meta { margin-bottom: 48px; line-height: 1.6; }.policy-content article { grid-template-columns: 35px 1fr; column-gap: 15px; }.policy-content h2 { font-size: 20px; }.policy-content p { grid-column: 2; font-size: 12px; }.policy-note { margin-top: 32px; } }
