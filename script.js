@@ -17,8 +17,13 @@ document.querySelectorAll('.nav a').forEach((link) => {
 const WHATSAPP_NUMBER = '5519992789275';
 const whatsappMessage = `Olá! Tenho uma dúvida sobre o ebook Dados na Era da IA.`;
 const sampleMessage = 'Olá! Gostaria de receber uma amostra do ebook Dados na Era da IA.';
+const purchaseMessage = 'Olá! Quero comprar o ebook Dados na Era da IA por R$ 29,90. Pode me enviar as instruções e o link de pagamento?';
 
 document.querySelectorAll('.whatsapp-link').forEach((link) => {
-  const message = link.dataset.whatsappIntent === 'sample' ? sampleMessage : whatsappMessage;
+  const message = link.dataset.whatsappIntent === 'sample'
+    ? sampleMessage
+    : link.dataset.whatsappIntent === 'purchase'
+      ? purchaseMessage
+      : whatsappMessage;
   link.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 });

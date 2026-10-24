@@ -124,6 +124,13 @@ h1 em, h2 em { color: var(--violet); font-style: normal; }
 @media (max-width: 650px) { .section-shell, .site-header { width: calc(100% - 32px); }.chapter-grid { grid-template-columns: 1fr; }.chapter-card { min-height: 270px; }.hero { padding-top: 58px; }.hero-visual { height: 460px; }.author-card { gap: 18px; padding: 24px; }.author-photo { flex-basis: 78px; width: 78px; height: 78px; } }
 @media (max-width: 480px) { h1 { font-size: clamp(48px, 15vw, 60px); }.hero-actions { align-items: stretch; }.hero-actions .button { width: 100%; }.hero-actions .text-link { align-self: flex-start; }.hero-visual { transform: scale(.76); margin-left: -16%; margin-right: -16%; }.faq-list summary { font-size: 14px; }.buy-action .price strong { font-size: 56px; }.author-card { display: grid; grid-template-columns: auto 1fr; }.author-copy { align-self: center; }.author-card h2 { font-size: 22px; }.author-card p { line-height: 1.5; } }
 
+@media (max-width: 900px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  .audience-grid { grid-template-columns: 1fr; }
+  .audience-card { width: 100%; min-height: 190px; }
+  .audience-card h3 { margin-top: 34px; }
+}
+
 .skip-link { position: fixed; top: 12px; left: 12px; z-index: 20; padding: 10px 14px; color: var(--paper); background: var(--lime); font-size: 12px; font-weight: 800; transform: translateY(-150%); transition: transform .2s ease; }
 .skip-link:focus { transform: translateY(0); }
 .benefits-section { padding: 0 0 150px; }
