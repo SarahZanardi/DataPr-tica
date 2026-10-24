@@ -136,3 +136,18 @@ h1 em, h2 em { color: var(--violet); font-style: normal; }
 .benefit-card p { max-width: 275px; margin: 0; color: var(--muted); font-size: 11px; line-height: 1.6; }
 @media (max-width: 850px) { .benefits-section { padding-bottom: 100px; }.benefits-grid { grid-template-columns: 1fr; }.benefit-card { min-height: 180px; }.benefit-card h3 { margin-top: 38px; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; } }
+.policy-page { padding: 105px 0 130px; }
+.policy-page h1 { max-width: 720px; margin-bottom: 28px; }
+.policy-lead { max-width: 620px; color: var(--muted); font-size: 16px; line-height: 1.75; }
+.policy-lead strong, .policy-content strong { color: var(--ink); }
+.policy-meta { display: flex; flex-wrap: wrap; gap: 12px 28px; margin: 34px 0 70px; color: var(--lime); font: 500 10px "DM Mono", monospace; letter-spacing: .06em; text-transform: uppercase; }
+.policy-content { max-width: 800px; border-top: 1px solid var(--line); }
+.policy-content article { display: grid; grid-template-columns: 55px 1fr; column-gap: 28px; padding: 32px 0; border-bottom: 1px solid var(--line); }
+.policy-number { color: var(--lime); font: 500 11px "DM Mono", monospace; }
+.policy-content h2 { margin: 0 0 12px; color: var(--ink); font-size: 24px; line-height: 1.05; letter-spacing: -.05em; }
+.policy-content p { grid-column: 2; max-width: 650px; margin: 0 0 12px; color: var(--muted); font-size: 13px; line-height: 1.8; }
+.policy-content p:last-child { margin-bottom: 0; }
+.policy-content a { color: var(--lime); text-decoration: underline; text-underline-offset: 3px; }
+.policy-note { max-width: 700px; margin: 42px 0 0; color: var(--muted); font-size: 11px; line-height: 1.7; }
+.site-footer a { transition: color .2s ease; }
+@media (max-width: 650px) { .policy-page { padding: 70px 0 95px; }.policy-meta { margin-bottom: 48px; line-height: 1.6; }.policy-content article { grid-template-columns: 35px 1fr; column-gap: 15px; }.policy-content h2 { font-size: 20px; }.policy-content p { grid-column: 2; font-size: 12px; }.policy-note { margin-top: 32px; } }
